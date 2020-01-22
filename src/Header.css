@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.Header {
+  padding: 10px;
+}
+
+.App-header-logo {
+  width: 180px;
+}
+
+.Header {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid rgb(204, 204, 240);
+  border-bottom: none;
+  padding: 0 0 0 0;
+  margin: 0;
+}
+
+.logoHeaderImg {
+  width: 50px;
+  height: 50px;
+}
+
+.App-logoHeader,
+.logoHeader {
+  cursor: pointer;
+  text-align: center;
+  padding: 10px;
+  border: #cccccc solid 1px;
+}
+
+.App-logoHeader {
+  padding: 35px 35px 35px;
+  border: none;
+}
+
+.logoHeader:hover {
+  background-color: rgb(240, 240, 240);
+}
+
+.logoHeader p {
+  color: rgb(204, 0, 0);
+  font-family: "open Sans";
+  font-size: 14px;
+}
+
+.App-header-search {
+  margin: 0;
+  width: 400px;
+  border: none;
+  border-bottom: 5px rgb(204, 204, 204) solid;
+  padding: 40px 5px 40px 10px;
+}
+
+.App-header-search input {
+  width: 100%;
+  border: none;
+  font-size: 12pt;
+  font-family: Helvetica;
+  outline: none;
+  transition: 1s ease-in-out;
+}
+
+.App-header-acessarPessoaFisica {
+  padding: 20px 25px 25px 25px;
+}
+
+.App-header-acessarPessoaFisica_Div input {
+  border: gray solid 1px;
+  height: 25px;
+}
+
+.acessarPessoaFisica_Div {
+  padding: 0px;
+}
+
+.App-header-acessarPessoaFisica_Div img {
+  width: 25px;
+  height: 25px;
+}
+
+.App-header-acessarPessoaFisica p {
+  text-align: left;
+  color: rgb(97, 97, 97);
+}
+
+.Blank {
+  width: 50px;
+}
+
+.inp-icon {
+  background: url(https://www.santander.com.br/assets/images/favicon.png)
+    no-repeat 98%;
+  background-size: 15px;
+  height: 30px;
+}
+
+@font-face {
+  font-family: icon-family;
+  src: url(https://santander.com.br/icomoon.005697ae985a90b47367.eot?mrn8rq);
+}
