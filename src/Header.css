@@ -5,11 +5,14 @@
 }
 
 .Header {
-  padding: 10px;
+  padding: 5px;
+  padding-right: 5px;
+  position: fixed;
+  background: white;
 }
 
 .App-header-logo {
-  width: 180px;
+  width: 160px;
 }
 
 .Header {
@@ -43,7 +46,8 @@
   background-color: rgb(240, 240, 240);
 }
 
-.logoHeader p {
+.logoHeader p,
+.logoHeaderPessoaFisica p {
   color: rgb(204, 0, 0);
   font-family: "open Sans";
   font-size: 14px;
@@ -51,7 +55,7 @@
 
 .App-header-search {
   margin: 0;
-  width: 400px;
+  width: 510px;
   border: none;
   border-bottom: 5px rgb(204, 204, 204) solid;
   padding: 40px 5px 40px 10px;
@@ -68,11 +72,17 @@
 
 .App-header-acessarPessoaFisica {
   padding: 20px 25px 25px 25px;
+  width: 300px;
+  border-bottom: 1px solid #cccccc;
 }
 
 .App-header-acessarPessoaFisica_Div input {
   border: gray solid 1px;
   height: 25px;
+  width: 500;
+  background-color: rgb(243, 243, 243);
+  outline: none;
+  padding-left: 5px;
 }
 
 .acessarPessoaFisica_Div {
@@ -94,13 +104,28 @@
 }
 
 .inp-icon {
-  background: url(https://www.santander.com.br/assets/images/favicon.png)
-    no-repeat 98%;
+  background: url("./img/144-lock.png") no-repeat 98%;
   background-size: 15px;
   height: 30px;
 }
 
-@font-face {
-  font-family: icon-family;
-  src: url(https://santander.com.br/icomoon.005697ae985a90b47367.eot?mrn8rq);
+.Pannel {
+  display: block;
+  width: 1420px;
+  height: 600px;
+}
+.Pannel h1 {
+  font-size: larger;
+}
+
+.BackgroundImg {
+  display: block;
+  background-image: url(https://cms.santander.com.br/sites/WPS/imagem/imagem-pilula-cartao-123/19-01-31_210829_G_pilula_1920x1080.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #464646;
+  width: 100vw;
+  height: 100vh;
+  transition: 0.1s ease-in-out;
 }
